@@ -1,0 +1,9 @@
+# .dockerignore file
+# This file keeps folder items from being sent (copied) to the docker daemon during build time.
+.gradle
+.idea
+src
+web
+build.gradle
+gradle-*
+README.md
