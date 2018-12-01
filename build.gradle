@@ -38,15 +38,3 @@ task deployToTomcat(dependsOn: 'war') {
 		include "*.war"
 	}
 }
-
-
-
-// To Build -- 
-// docker run --rm -v "$PWD":/home/gradle/project -w /home/gradle/project gradle gradle deployToTomcat
-//
-
-// To Run in Tomcat --
-// docker run -v "$PWD":/home/code -e CATALINA_BASE=/home/code/catalina-base  --name tomcat -it --rm -p 8888:8080 tomcat:8.5.24-jre8-alpine
-//
-
-// curl localhost:8080/gradle-tomcat-0.0.1-SNAPSHOT/rest/test

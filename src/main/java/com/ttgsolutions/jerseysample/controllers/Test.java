@@ -6,15 +6,14 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
 /**
- * Root resource, which represents “Hello world!”.
+ * Test resource, which represents “Hello world!”.
  */
 @Path("/test")
-public class Root {
+public class Test {
 
     @GET
     @Produces("text/plain")
     public Response getText() {
         return Response.ok("Hello world!\n").build();
     }
-
 }

@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/tomcat.Dockerfile
-    image: ricejamesh/tomcat-dev
+    image: ricejamesh/tomcat-dev:1.0
     ports:
       - '8080:8080'
     volumes:
