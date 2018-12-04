@@ -1,4 +1,7 @@
 # Basic Gradle/Tomcat development configuration.
+
+https://github.com/ricejamesh/gradle-dev-env
+
 ## Uses Docker, Docker-Compose for development and testing.
 
 ```
